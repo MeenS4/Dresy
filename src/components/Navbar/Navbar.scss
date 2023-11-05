@@ -12,7 +12,11 @@ nav {
   padding-block: 3.2rem;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid $dividerColor;
+  border-bottom: 0.01rem solid $dividerColor;
+
+  * {
+    cursor: pointer;
+  }
 }
 
 .nav-buttons {

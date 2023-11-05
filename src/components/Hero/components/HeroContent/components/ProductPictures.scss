@@ -1,0 +1,13 @@
+.product-images {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.image {
+  img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+}
