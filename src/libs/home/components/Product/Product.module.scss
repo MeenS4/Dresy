@@ -1,0 +1,44 @@
+@import '/src/resources/colors';
+
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.image {
+  border-radius: 4px;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    display: inline;
+  }
+}
+
+.title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  flex: 1 0 0;
+
+  overflow: hidden;
+  color: $darkerFontColor;
+  text-overflow: ellipsis;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+}
+
+.price {
+  color: $darkerFontColor;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+}

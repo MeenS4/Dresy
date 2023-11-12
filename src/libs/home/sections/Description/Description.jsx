@@ -9,8 +9,6 @@ const content = {
   Wykonany z poliestru, ten kombinezon jest trwały i przyjemny w
   dotyku. Dodatkowy pasek umożliwia dostosowanie go do swojego gustu i
   sylwetki.`,
-  productCare: `Skład materiału to 98% bawełna, 2% elastan. Jeśli chodzi o
-  pielęgnację, to produkt można prać w pralce w temperaturze 30°C.`,
 };
 
 export default function Description() {
@@ -20,9 +18,15 @@ export default function Description() {
         <div className={styles['desc-title']}>Opis produktu</div>
         <div className={styles['desc']}>{content.productDesc}</div>
         <div className={styles['desc-title']}>Skład i pielęgnacja</div>
-        <div className={styles['desc']}>{content.productCare}</div>
+        <div className={styles['desc']}>
+          Skład materiału to 98% bawełna, 2% elastan. Jeśli chodzi o
+          pielęgnację, to produkt można
+          <span className={styles['bold']}>
+            {' '}
+            prać w pralce w temperaturze 30°C.
+          </span>
+        </div>
       </div>
     </div>
   );
 }
-

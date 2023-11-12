@@ -36,3 +36,10 @@
   line-height: 150%;
   letter-spacing: 0.02rem;
 }
+
+.products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
