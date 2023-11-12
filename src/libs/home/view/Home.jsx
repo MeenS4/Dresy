@@ -5,13 +5,18 @@ import Hero from '../sections/Hero/Hero';
 import Description from '../sections/Description/Description';
 import Newsletter from '../components/Newsletter/Newsletter';
 import OtherProducts from '../sections/OtherProducts/OtherProducts';
+import HeroDirectory from '../components/Directory/HeroDirectory';
+import ProductPictures from '../components/Pictures/ProductPictures';
+import ProductInfo from '../components/Info/ProductInfo';
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <div className={styles['main']}>
-        <Hero />
+        <HeroDirectory />
+        <ProductPictures />
+        <ProductInfo />
         <Description />
         <div></div>
         <Newsletter />

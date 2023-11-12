@@ -2,9 +2,9 @@
   display: grid;
   width: 100%;
 
-  > * {
-    margin-bottom: 3.2rem;
-  }
+  // > * {
+  //   margin-bottom: 3.2rem;
+  // }
 
   nav {
     margin-bottom: 0;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 149rem) {
   .main {
-    grid-template-columns: 7fr 3fr;
+    grid-template-columns: 65% 35%;
   }
 }
 
