@@ -1,0 +1,100 @@
+@import 'resources/colors';
+
+.product-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.product-name {
+  color: $darkerFontColor;
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 157.143%;
+  letter-spacing: 0.02rem;
+}
+
+.product-price {
+  color: $darkerFontColor;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 166.143%;
+  letter-spacing: 0.02rem;
+  opacity: 0.56;
+}
+
+.product-variants {
+  display: flex;
+  padding: 20px 0px 28px 0px;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
+.variants {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.color {
+  img {
+    border-radius: 4px;
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+}
+
+.picked-variant {
+  color: $darkerFontColor;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+  opacity: 0.56;
+}
+
+.product-size {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  padding-bottom: 3.2rem;
+}
+
+.size-buttons {
+  display: flex;
+  gap: 1.2rem;
+}
+.size-guide {
+  display: flex;
+  gap: 0.8rem;
+
+  color: $darkerFontColor;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+}
+
+.add-to-cart-button {
+  display: flex;
+  max-width: 60rem;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 6px;
+  background: $darkerFontColor;
+
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+}

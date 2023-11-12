@@ -1,13 +1,11 @@
 import './App.scss';
 
-import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
+import Home from 'libs/home/view/Home';
 
 export default function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
+      <Home />
     </>
   );
 }

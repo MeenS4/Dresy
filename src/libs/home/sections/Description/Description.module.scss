@@ -1,0 +1,27 @@
+@import 'resources/colors';
+
+.description {
+  padding: 3.2rem 0 3.2rem 8rem;
+}
+
+.product-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.desc-title {
+  color: $darkerFontColor;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+}
+
+.desc {
+  color: $darkerFontColor;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+}

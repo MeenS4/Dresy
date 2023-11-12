@@ -1,0 +1,38 @@
+@import '/src/resources/colors';
+
+.other-products {
+  display: flex;
+  width: 100%;
+  padding: 3.2rem 8rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2rem;
+  grid-column: 1 / -1;
+  margin-top: 3.2rem;
+}
+
+.header {
+  display: flex;
+  padding: 0px 0.4rem;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.section-title {
+  color: $darkerFontColor;
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 157%;
+  letter-spacing: 0.02rem;
+}
+
+.section-desc {
+  width: 28rem;
+  color: $darkerFontColor;
+  text-align: right;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+}

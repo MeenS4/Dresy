@@ -1,0 +1,25 @@
+@import 'resources/colors';
+
+.content {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 60% 40%;
+}
+
+@media screen and (max-width: 149rem) {
+  .content {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 7fr 3fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media screen and (min-width: 150rem) {
+  .content {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 6fr 4fr;
+    grid-template-rows: auto;
+  }
+}
