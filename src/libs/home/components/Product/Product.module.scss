@@ -4,11 +4,12 @@
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  width: 100%;
 }
 
 .image {
   border-radius: 4px;
-  width: 100%;
+  max-width: 100%;
 }
 
 .info {
@@ -21,10 +22,8 @@
 }
 
 .title {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
   flex: 1 0 0;
+  white-space: nowrap;
 
   overflow: hidden;
   color: $darkerFontColor;
@@ -41,4 +40,5 @@
   font-weight: 600;
   line-height: 150%;
   letter-spacing: 0.02rem;
+  // padding-left: 2.4rem;
 }

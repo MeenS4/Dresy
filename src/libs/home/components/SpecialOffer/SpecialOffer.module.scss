@@ -1,6 +1,6 @@
 @import 'src/resources/colors';
 
-.newsletter {
+.special-offer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +8,11 @@
   border-radius: 8px;
   background: #f2f5f7;
   margin: 3.2rem 0 3.2rem 8rem;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+  margin-right: 8rem;
 }
 
 .text {
