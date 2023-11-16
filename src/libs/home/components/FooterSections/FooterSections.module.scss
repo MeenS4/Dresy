@@ -1,0 +1,22 @@
+.section-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  gap: 1.6rem;
+}
+
+.sections-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+}
+
+.section {
+  font-size: 1.6rem;
+  line-height: 150%;
+  font-weight: 400;
+  letter-spacing: 0.02rem;
+  margin-bottom: 0.8rem;
+}

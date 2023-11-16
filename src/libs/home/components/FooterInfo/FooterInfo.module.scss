@@ -1,0 +1,36 @@
+@import 'src/resources/colors';
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  gap: 4rem;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.quote {
+  color: $darkerFontColor;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+}
+
+.copyrights {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.copyright {
+  color: $darkerFontColor;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+}
