@@ -15,12 +15,11 @@
 }
 
 .product-price {
-  color: $darkerFontColor;
+  color: rgba(11, 14, 22, 0.56);
   font-size: 2.4rem;
   font-weight: 500;
   line-height: 166.143%;
   letter-spacing: 0.02rem;
-  opacity: 0.56;
 }
 
 .product-variants {
@@ -51,12 +50,11 @@
 }
 
 .picked-variant {
-  color: $darkerFontColor;
+  color: rgba(11, 14, 22, 0.56);
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.02rem;
-  opacity: 0.56;
 }
 
 .product-size {

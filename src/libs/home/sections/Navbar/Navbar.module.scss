@@ -12,6 +12,10 @@ nav {
   align-items: center;
   border-bottom: 0.01rem solid $dividerColor;
 
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+
   * {
     cursor: pointer;
   }

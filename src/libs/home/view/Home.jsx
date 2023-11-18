@@ -6,7 +6,7 @@ import SpecialOffer from '../components/SpecialOffer/SpecialOffer';
 import OtherProducts from '../sections/OtherProducts/OtherProducts';
 import HeroDirectory from '../components/Directory/HeroDirectory';
 import ProductPictures from '../components/Pictures/ProductPictures';
-import ProductInfo from '../components/Info/ProductInfo';
+import ProductInfo from '../components/ProductInfo/ProductInfo';
 import Footer from '../sections/Footer/Footer';
 
 export default function Home() {
