@@ -1,14 +1,14 @@
 import styles from './SuggestedProduct.module.scss';
 
-export default function Product({ img }) {
+export default function Product({ product }) {
+  const { title, price, img } = product;
+
   return (
     <div className={styles['product']}>
-      <img className={styles['image']} src={img} alt='product'></img>
+      <img className={styles['image']} src={img} alt='product' />
       <div className={styles['info']}>
-        <div className={styles['title']}>
-          Zielone wzorzyste szorty casualowe
-        </div>
-        <div className={styles['price']}>52 PLN</div>
+        <div className={styles['title']}>{title}</div>
+        <div className={styles['price']}>{price} PLN</div>
       </div>
     </div>
   );

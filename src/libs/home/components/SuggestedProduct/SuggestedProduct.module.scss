@@ -23,9 +23,8 @@
 
 .title {
   flex: 1 0 0;
-  white-space: nowrap;
 
-  overflow: hidden;
+  overflow: auto;
   color: $darkerFontColor;
   text-overflow: ellipsis;
   font-size: 1.6rem;

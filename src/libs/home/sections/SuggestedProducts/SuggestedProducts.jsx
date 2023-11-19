@@ -7,7 +7,28 @@ import product2 from 'resources/images/suggested-products/product2.jpg';
 import product3 from 'resources/images/suggested-products/product3.jpg';
 import product4 from 'resources/images/suggested-products/product4.png';
 
-const images = [product1, product2, product3, product4];
+const products = [
+  {
+    title: 'Zielone wzorzyste szorty casualowe',
+    price: 52,
+    img: product1,
+  },
+  {
+    title: 'Zielone wzorzyste szorty casualowe',
+    price: 52,
+    img: product2,
+  },
+  {
+    title: 'Zielone wzorzyste szorty casualowe',
+    price: 52,
+    img: product3,
+  },
+  {
+    title: 'Zielone wzorzyste szorty casualowe',
+    price: 52,
+    img: product4,
+  },
+];
 
 export default function OtherProducts() {
   return (
@@ -19,8 +40,8 @@ export default function OtherProducts() {
         </div>
       </div>
       <div className={styles['products']}>
-        {images.map((img) => {
-          return <Product img={img} />;
+        {products.map((product) => {
+          return <Product product={product} />;
         })}
         ;
       </div>
