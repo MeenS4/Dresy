@@ -1,4 +1,4 @@
-import DresyLogoIconFooter from 'components/shared/DresyLogoIconFooter';
+import DresyLogoIconFooter from 'components/shared/Icons/DresyLogoIconFooter';
 import styles from './FooterInfo.module.scss';
 
 export default function FooterInfo() {

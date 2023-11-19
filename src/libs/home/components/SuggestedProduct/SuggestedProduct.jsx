@@ -1,4 +1,4 @@
-import styles from './Product.module.scss';
+import styles from './SuggestedProduct.module.scss';
 
 export default function Product({ img }) {
   return (

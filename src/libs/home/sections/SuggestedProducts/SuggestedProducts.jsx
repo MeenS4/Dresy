@@ -1,6 +1,6 @@
-import styles from './OtherProducts.module.scss';
+import styles from './SuggestedProducts.module.scss';
 
-import Product from 'libs/home/components/Product/Product';
+import Product from 'libs/home/components/SuggestedProduct/SuggestedProduct';
 
 import product1 from 'resources/images/suggested-products/product1.png';
 import product2 from 'resources/images/suggested-products/product2.jpg';

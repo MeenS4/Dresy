@@ -3,9 +3,9 @@ import styles from './Home.module.scss';
 import Navbar from '../sections/Navbar/Navbar';
 import Description from '../sections/Description/Description';
 import SpecialOffer from '../components/SpecialOffer/SpecialOffer';
-import OtherProducts from '../sections/OtherProducts/OtherProducts';
+import OtherProducts from '../sections/SuggestedProducts/SuggestedProducts';
 import HeroDirectory from '../components/Directory/HeroDirectory';
-import ProductPictures from '../components/Pictures/ProductPictures';
+import ProductPictures from '../components/ProductPictures/ProductPictures';
 import ProductInfo from '../components/ProductInfo/ProductInfo';
 import Footer from '../sections/Footer/Footer';
 

@@ -1,6 +1,6 @@
 import styles from './HeroContent.module.scss';
 
-import ProductPictures from '../Pictures/ProductPictures';
+import ProductPictures from '../ProductPictures/ProductPictures';
 import ProductInfo from '../ProductInfo/ProductInfo';
 
 export default function HeroContent() {

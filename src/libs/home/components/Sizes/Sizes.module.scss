@@ -1,0 +1,32 @@
+@import 'resources/colors';
+
+.picked-size {
+  color: rgba(11, 14, 22, 0.56);
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+}
+
+.product-size {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  padding-bottom: 3.2rem;
+}
+
+.size-buttons {
+  display: flex;
+  gap: 1.2rem;
+}
+.size-guide {
+  display: flex;
+  gap: 0.8rem;
+
+  color: $darkerFontColor;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.02rem;
+}
