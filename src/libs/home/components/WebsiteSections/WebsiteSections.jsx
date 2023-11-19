@@ -1,6 +1,6 @@
-import styles from './FooterSections.module.scss';
+import styles from './WebsiteSections.module.scss';
 
-export default function FooterSections({ title, sections }) {
+export default function WebsiteSections({ title, sections }) {
   return (
     <div className={styles['section-type']}>
       <div className={styles['sections-title']}>{title}</div>

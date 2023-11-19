@@ -1,9 +1,9 @@
-import styles from './HeroContent.module.scss';
+import styles from './Product.module.scss';
 
 import ProductPictures from '../ProductPictures/ProductPictures';
 import ProductInfo from '../ProductInfo/ProductInfo';
 
-export default function HeroContent() {
+export default function Product() {
   return (
     <div className={styles['content']}>
       <ProductPictures />

@@ -1,6 +1,6 @@
-import styles from './HeroDirectory.module.scss';
+import styles from './Directory.module.scss';
 
-export default function HeroDirectory() {
+export default function Directory() {
   return (
     <div className={styles['directory']}>
       <div className={styles['directory__category']}>Szorty</div>

@@ -1,5 +1,5 @@
-import FooterInfo from 'libs/home/components/FooterInfo/FooterInfo';
-import FooterSections from 'libs/home/components/FooterSections/FooterSections';
+import FooterInfo from 'libs/home/components/WebsiteInfo/WebsiteInfo';
+import FooterSections from 'libs/home/components/WebsiteSections/WebsiteSections';
 import styles from './Footer.module.scss';
 
 export default function Footer() {

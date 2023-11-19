@@ -1,7 +1,7 @@
 import DresyLogoIconFooter from 'components/shared/Icons/DresyLogoIconFooter';
-import styles from './FooterInfo.module.scss';
+import styles from './WebsiteInfo.module.scss';
 
-export default function FooterInfo() {
+export default function WebsiteInfo() {
   return (
     <div className={styles['footer-info']}>
       <div className={styles['brand']}>
