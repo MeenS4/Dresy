@@ -6,7 +6,7 @@ import materialPicture3 from 'resources/images/product-materials/material-black.
 import materialPicture4 from 'resources/images/product-materials/material-blue.jpg';
 
 import Sizes from '../Sizes/Sizes';
-import BaseCtaButton from 'components/shared/BaseButton/BaseCtaButton';
+import BaseCtaButton from 'shared/components/BaseButton/BaseCtaButton';
 import ColorVariants from '../ColorVariants/ColorVariants';
 
 const sizes = [

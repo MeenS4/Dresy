@@ -25,7 +25,6 @@
   flex: 1 0 0;
 
   overflow: auto;
-  color: $darkerFontColor;
   text-overflow: ellipsis;
   font-size: 1.6rem;
   font-weight: 500;
@@ -34,7 +33,6 @@
 }
 
 .price {
-  color: $darkerFontColor;
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 150%;

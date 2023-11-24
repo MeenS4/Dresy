@@ -9,16 +9,7 @@
   nav {
     margin-bottom: 0;
   }
-}
-
-@media screen and (max-width: 149rem) {
-  .main {
-    grid-template-columns: 65% 35%;
-  }
-}
-
-@media screen and (min-width: 150rem) {
-  .main {
-    grid-template-columns: 6fr 4fr;
-  }
+  max-width: 1700px;
+  margin: 0 auto;
+  grid-template-columns: 6.25fr 3.75fr;
 }

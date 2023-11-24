@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from './Sizes.module.scss';
 
-import RulerIcon from 'components/shared/Icons/RulerIcon';
+import RulerIcon from 'shared/components/Icons/RulerIcon';
 import SizeButton from '../SizeButton/SizeButton';
 
 export default function Sizes({ productSizes }) {

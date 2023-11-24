@@ -1,5 +1,5 @@
-import DresyLogoIcon from 'components/shared/Icons/DresyLogoIcon';
-import ShoppingCartIcon from 'components/shared/Icons/ShoppingCartIcon';
+import DresyLogoIcon from 'shared/components/Icons/DresyLogoIcon';
+import ShoppingCartIcon from 'shared/components/Icons/ShoppingCartIcon';
 import styles from './Navbar.module.scss';
 import classNames from 'classnames';
 
